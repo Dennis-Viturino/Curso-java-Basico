@@ -1,0 +1,13 @@
+==== Condicionais switch case, uma alternativa a if elfs aninhados ====
+
+funciona como múltiplos ifs elfs.
+
+O switchcase funciona da seguinte forma, 
+
+switch(variavel_a_ser_analisada) {
+    case possivel_valores_para_a_variavel: codigo a ser realizado; break;
+    case possivel_valores_para_a_variavel: codigo a ser realizado; break;
+    case possivel_valores_para_a_variavel: codigo a ser realizado; break;
+    case possivel_valores_para_a_variavel: codigo a ser realizado; break;
+    default: codigo a ser realizado caso nenhum dos outros sejam satisfeitos;
+}

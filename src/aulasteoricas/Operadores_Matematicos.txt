@@ -1,0 +1,35 @@
+
+    ==== Operadores Aritmeticos ====
+
++ equivale a adição ou concatenar strings
+- equivale a subtração
+* equivale a multiplicação
+/ equviale a divisão
+% equivale ao resto da divisão
+++ equivale a incrimento (pos e pre fix)
+-- equivale a decremento(pos ou pre fix)
+
+++variavel, isso é antes de qaulquer coisa mande a variavel
+
+variavel++ isso é tipo, imprima e depois adicione + 1 a variavel
+
+    ==== Operadores Relacionais ====
+
+== equivale a; igual a 
+!= equivale a; diferente de
+> equivale a; maior que 
+< equivale a; menor que
+>= equivale a; maior ou igual que
+<= equivale a; menor ou igual que
+
+    ==== Operadores Lógicos ====
+
+& equivale a; AND 
+| equivale a; OR 
+^ equivale a; XOR
+|| equivale a; OR curto circuito
+&& equivale a; AND curto circuito
+! equivale a; NOT
+
+Observação: no java sempre usaremos o && e o ||
+

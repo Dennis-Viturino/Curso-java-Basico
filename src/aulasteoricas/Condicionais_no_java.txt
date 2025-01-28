@@ -1,0 +1,25 @@
+    ==== como usar if e elses ====
+
+para usar if no java faz da seguinte forma:
+
+if (condição) {
+    // codigo
+} else if (outra condição) {
+    // codigo
+} else {
+    // codigo caso nenhuma condição seja verdadeira
+}
+
+É possível ter if dentro de if.
+Exemplo:
+
+if (condição) {
+    if (uma outra condição para verificar) {
+        // codigo 
+    }
+}
+
+Assim irá verificar se a primeira condição é verdadeira, 
+e se for veradeira, vai verificar a outra condição dentro 
+do primeiro if.
+

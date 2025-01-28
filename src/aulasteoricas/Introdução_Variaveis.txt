@@ -1,0 +1,26 @@
+
+Aula de Introdução a Variaveis no java
+
+==== O que é uma variável? ====
+
+São áreas de memoria para guardar o valor de alguma coisa que será utilizada no futuro
+
+exemplo: 
+nome da pessoa = Dennis
+idade da pessoa = 19
+
+Declarando variavel em java
+<tipo> <nome da variavel>;
+
+Atribuição da variavel
+<tipo> <nome da variavel> = <valor>;
+
+A primeira letra do nome de uma variavel é sempre minuscula por conevenção
+e fica case sensitive ou seja: 
+
+String nomeDaPessoa = Dennis;
+
+Tipos Primitivos
+
+int, float e double, char e Boolean
+

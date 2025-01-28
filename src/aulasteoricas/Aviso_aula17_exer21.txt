@@ -1,0 +1,5 @@
+=================================
+
+O exercicio 21 da aula 17, usa:
+ for, do while e if, e flag,
+  é um bom exercicio para estudo
