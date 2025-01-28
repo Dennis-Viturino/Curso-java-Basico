@@ -7,7 +7,7 @@ public class Exer021 {
         
         Scanner sc = new Scanner(System.in);
 
-        //N/A
+        // N/A A professora errou neste exercicio
 
     }
 }
