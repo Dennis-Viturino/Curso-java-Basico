@@ -1,1 +1,12 @@
 Na aula 20 os exercicios falam sobre Matrizes.
+
+No Exercicio 06 da aula 20 temos o jogo da velha
+o ponto que está com breakpont é para testar o modo debug do java
+Voçê adiciona breakponts nas linhas que derem erro, e depois debuga, 
+para adicionar basta clicar com um clique no lado esquerdo do número da 
+linha em questão.
+
+        ==== Comandos de debugar no VS-Code ====
+        
+F10 serve para ir passo por passo verificando cada coisa como pudb de python
+F5 serve para ir para proxima entrada ou pular pro fim é o continue.
