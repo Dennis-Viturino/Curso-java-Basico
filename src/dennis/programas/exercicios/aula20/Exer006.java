@@ -65,7 +65,13 @@ public class Exer006 { // Programa do jogo da velha
             // imprimir o tabuleiro
             for (int i = 0; i < jogoVelha.length; i++) {
                 for (int j = 0; j < jogoVelha[i].length; j++) {
-                    System.out.print(jogoVelha[i][j] + " | ");
+
+                    if (jogoVelha[i][j] == '\u0000') {
+                        System.out.print(" " + " | ");
+                    } else {
+                        System.out.print(jogoVelha[i][j] + " | ");
+                    }
+                    // System.out.print(jogoVelha[i][j] + " | ");
                 }
                 System.out.println();
             }
