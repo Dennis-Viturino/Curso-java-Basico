@@ -28,5 +28,6 @@ public class Exer011 {
         System.out.println("Percentual: " + percentual);
         System.out.println("Aumento: " + aumento);
         System.out.println("Salário ajustado: " + salarioAjustado);
+        sc.close();
     }
 }

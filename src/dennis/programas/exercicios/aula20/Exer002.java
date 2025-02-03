@@ -56,6 +56,6 @@ public class Exer002 {
 
         System.out.println("Maior valor da coluna 7 é o " + maiorDaColuna7);
         System.out.println("Menor valor da coluna 7 é o " + menorDaColuna7);
-
+        sc.close();
     }
 }

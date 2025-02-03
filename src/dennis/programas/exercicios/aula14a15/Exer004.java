@@ -24,5 +24,6 @@ public class Exer004 {
                 default: System.out.println("É uma consoante"); break;
             }    
         }
+        sc.close();
     }
 }

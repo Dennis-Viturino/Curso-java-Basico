@@ -19,5 +19,6 @@ public class Exer003 {
             default:
                 System.out.println("Sexo inválido");
         }
+        sc.close();
     }
 }

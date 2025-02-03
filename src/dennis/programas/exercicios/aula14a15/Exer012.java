@@ -37,6 +37,6 @@ public class Exer012 {
         System.out.println("FGTS (11%): R$ " + fgts);
         System.out.println("Total de descontos : R$ " + totalDescontos);
         System.out.println("Salário Liquído: R$ " + salarioLiquido);
-
+        sc.close();
     }
 }

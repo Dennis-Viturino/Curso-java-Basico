@@ -33,6 +33,6 @@ public class Exer003 {
 
         System.out.println("Quantidade de pares " + contaPares);
         System.out.println("Quantidade de ímpares " + contaImpares);
-
+        sc.close();
     }
 }

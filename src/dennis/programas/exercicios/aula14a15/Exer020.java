@@ -52,5 +52,6 @@ public class Exer020 {
         } else if (cont == 0) {
             System.out.println("Inocente");
         }
+        sc.close();
     }
 }

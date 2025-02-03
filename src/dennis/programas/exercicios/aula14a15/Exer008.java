@@ -17,5 +17,6 @@ public class Exer008 {
         } else if (produto3 <= produto1 && produto3 <= produto2) {
             System.out.println("Compre o produto 3");
         }
+        sc.close();
     }
 }

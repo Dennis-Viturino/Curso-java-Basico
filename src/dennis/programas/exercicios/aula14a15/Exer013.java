@@ -20,5 +20,6 @@ public class Exer013 {
             case 7: System.out.println("Sábado"); break;
             default: System.out.println("Não é um dia da semana válido");
         }
+        sc.close();
     }
 }

@@ -59,5 +59,6 @@ public class Exer023 {
         } else {
             System.out.println("O valor a pagar é: " + total);
         }
+        sc.close();
     }
 }

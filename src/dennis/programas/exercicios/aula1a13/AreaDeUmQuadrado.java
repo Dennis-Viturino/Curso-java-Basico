@@ -11,6 +11,6 @@ public class AreaDeUmQuadrado {
         
         System.out.println("A área é de: " + (Math.pow(lado, 2)));
         System.out.println("E o dobro da área é: " + ((Math.pow(lado, 2)) * 2));
-
+        sc.close();
     }
 }

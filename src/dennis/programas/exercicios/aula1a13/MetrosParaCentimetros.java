@@ -9,5 +9,6 @@ public class MetrosParaCentimetros {
         System.out.println("Digite o valor em metros");
         double metros = sc.nextDouble();
         System.out.println("O valor em centimetros é: " + (metros * 100));
+        sc.close();
     }
 }

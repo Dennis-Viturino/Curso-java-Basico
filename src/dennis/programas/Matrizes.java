@@ -64,8 +64,9 @@ public class Matrizes {
 
         System.out.println();
 
-        // assim innicializa um vetor diretamente
+        /* assim innicializa um vetor diretamente
         double[] notasAluno1 = {7, 8, 9, 10};
+        */
 
         // assim innicializa uma matriz diretamente
         double[][] notasDeDoisAlunos = {{7, 8, 9, 10}, {8, 6, 7, 10}};
@@ -77,6 +78,6 @@ public class Matrizes {
             }
             System.out.println();
         }
-
+        
     }
 }

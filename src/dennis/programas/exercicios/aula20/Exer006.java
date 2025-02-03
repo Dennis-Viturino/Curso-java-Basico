@@ -102,5 +102,6 @@ public class Exer006 { // Programa do jogo da velha
                 System.out.println("Nínguem ganhou está partida");
             } 
         }
+        sc.close();
     }
 }

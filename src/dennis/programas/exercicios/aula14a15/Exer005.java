@@ -18,5 +18,6 @@ public class Exer005 {
         } else if (media < 7) {
             System.out.println("Reprovado");
         }
+        sc.close();
     }
 }

@@ -25,6 +25,6 @@ public class Exer015 {
         } else {
             System.out.println("Não forma um triangulo");
         }
-
+        sc.close();
     }
 }

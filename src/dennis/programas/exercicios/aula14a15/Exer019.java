@@ -39,5 +39,6 @@ public class Exer019 {
                 System.out.println("É um número ímpar");
             }
         }
+        sc.close();
     }
 }

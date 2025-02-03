@@ -11,5 +11,6 @@ public class Exer012 {
     
         double pesoIdeal = (72.7 * altura) - 58;
         System.out.println("Seu peso ideal é: " + pesoIdeal);
+        sc.close();
     }
 }

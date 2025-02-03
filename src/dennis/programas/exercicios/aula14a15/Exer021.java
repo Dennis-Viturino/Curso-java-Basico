@@ -41,5 +41,6 @@ public class Exer021 {
         
         double precoAPagar = total - totalDesconto;
         System.out.println("O valor a ser pago é: " + precoAPagar);
+        sc.close();
     }
 }

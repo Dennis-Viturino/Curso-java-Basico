@@ -23,6 +23,6 @@ public class BreakEContinue {
         // tambem tem o continue, mais é mais usado quando temos for dentro de for
         // exemplo, dentro do segundo for quero que pule o segundo e va pra o for externo,
         // usa o continue
-
+        sc.close();
     }
 }

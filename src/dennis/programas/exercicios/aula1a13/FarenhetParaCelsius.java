@@ -9,6 +9,6 @@ public class FarenhetParaCelsius {
         System.out.println("Digite a temperatura em Farenheit:");
         double farenheit = sc.nextDouble();
         System.out.println("O valor dessa temperatura em celsius é: " + (5 * (farenheit - 32) / 9));
-         
+        sc.close();
     }
 }

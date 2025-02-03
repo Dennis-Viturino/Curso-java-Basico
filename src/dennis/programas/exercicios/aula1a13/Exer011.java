@@ -15,5 +15,6 @@ public class Exer011 {
         System.out.println("Letra a: " + ((num1 * 2) * (num2/2)));
         System.out.println("Letra b: " + ((num1 * 3) + num3));
         System.out.println("Letra c: " + (Math.pow(num3, 3)));
+        sc.close();
     }
 }

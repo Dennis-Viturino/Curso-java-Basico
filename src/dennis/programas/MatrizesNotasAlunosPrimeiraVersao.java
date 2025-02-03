@@ -28,6 +28,6 @@ public class MatrizesNotasAlunosPrimeiraVersao {
             System.out.println();
 
         }
-
+        sc.close();
     }
 }

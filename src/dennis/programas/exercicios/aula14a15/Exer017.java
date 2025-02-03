@@ -14,5 +14,6 @@ public class Exer017 {
         } else {
             System.out.println("Não é bissexto");
         }
+        sc.close();
     }
 }

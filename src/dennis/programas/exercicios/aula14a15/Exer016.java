@@ -26,5 +26,6 @@ public class Exer016 {
                 System.out.println("Raiz2: " + ((-b - Math.sqrt(delta)) / (2 * a)));
             }
         }
+        sc.close();
     }
 }

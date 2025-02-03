@@ -10,5 +10,6 @@ public class CelsiusParaFarenheit {
         System.out.println("Digite a temperatura em Celsius");
         double celsius = sc.nextDouble();
         System.out.println("Está temperatura corresponde a " + ((celsius * 1.8) + 32) + " em Farenheit");
+        sc.close();
     }
 }

@@ -14,5 +14,6 @@ public class Exer014 {
 
         double tempo = tamanhoArquivo / velocidadeInternet;
         System.out.println("Tempo de download: " + tempo);
+        sc.close();
     }
 }

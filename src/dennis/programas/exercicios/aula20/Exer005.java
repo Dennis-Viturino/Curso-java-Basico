@@ -115,6 +115,6 @@ public class Exer005 {
             }
 
         }
-
+        sc.close();
     }
 }

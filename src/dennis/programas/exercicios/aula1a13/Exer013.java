@@ -28,5 +28,6 @@ public class Exer013 {
         } else {
             System.out.println("Voçê está abaixo do seu peso ideal");
         }
+        sc.close();
     }
 }

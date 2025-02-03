@@ -33,6 +33,6 @@ public class ArraysIrregulares {
                 System.out.println(nomesDosfilhos[i][j]);
             }
         }
-
+        sc.close();
     }
 }

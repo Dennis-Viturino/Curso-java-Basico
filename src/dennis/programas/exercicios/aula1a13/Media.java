@@ -11,5 +11,6 @@ public class Media {
         double nota4 = sc.nextDouble();
 
         System.out.println("A média é: " + ((nota1 + nota2 + nota3 + nota4) / 4));
+        sc.close();
     }
 }

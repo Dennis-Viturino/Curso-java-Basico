@@ -89,6 +89,6 @@ public class Exer004 {
             }
 
         }
-
+        sc.close();
     }
 }

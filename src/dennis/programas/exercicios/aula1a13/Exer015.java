@@ -26,6 +26,6 @@ public class Exer015 {
         System.out.println("Imposto de Renda: " + impostoRenda);
         System.out.println("Total de descontos: " + totalDescontos);
         System.out.println("Salário liquido é de: " + salarioLiquido);
-
+        sc.close();
     }
 }

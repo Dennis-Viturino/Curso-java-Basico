@@ -14,5 +14,6 @@ public class Exer018 {
         } else {
             System.out.println("Este número é ímpar");
         }
+        sc.close();
     }
 }

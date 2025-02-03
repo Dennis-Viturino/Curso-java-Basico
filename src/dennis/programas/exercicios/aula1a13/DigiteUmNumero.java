@@ -9,5 +9,6 @@ public class DigiteUmNumero {
         System.out.println("Digite um número Inteiro:");
         int num = sc.nextInt();
         System.out.println("O número informado foi: " + num);
+        sc.close();
     }
 }

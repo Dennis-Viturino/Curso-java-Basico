@@ -42,5 +42,6 @@ public class Exer001 {
         System.out.println("Maior valor = " + maior);
         System.out.println("Linha = " + linha);
         System.out.println("coluna = " + coluna);
+        sc.close();
     }
 }

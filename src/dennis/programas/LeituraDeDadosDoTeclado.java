@@ -44,5 +44,6 @@ public class LeituraDeDadosDoTeclado {
         System.out.println("Idade: " + idade + " anos");
         System.out.println("Seu salário é: " + salario);
         System.out.println("Casado: " + casado);
+        sc.close();
     }
 }

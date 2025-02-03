@@ -11,6 +11,6 @@ public class GanhoPorHora {
         System.out.println("Agora digite quantas horas voçê trabalha por mês:");
         double horasPorMes = sc.nextDouble();
         System.out.println("O total de seu salário por mês é: " + (horasPorMes * umaHora));
-        
+        sc.close();
     }
 }

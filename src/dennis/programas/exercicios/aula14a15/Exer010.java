@@ -18,5 +18,6 @@ public class Exer010 {
             case "N": System.out.println("Boa noite"); break;
             default: System.out.println("Valor inválido"); break;
         }
+        sc.close();
     }
 }

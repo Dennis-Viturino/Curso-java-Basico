@@ -17,5 +17,6 @@ public class Exer006 {
         } else if (num3 >= num1 && num3 >= num2) {
             System.out.println("num3 é maior: " + num3);
         }
+        sc.close();
     }
 }

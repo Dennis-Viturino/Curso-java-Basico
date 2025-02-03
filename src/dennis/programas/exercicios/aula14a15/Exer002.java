@@ -13,5 +13,6 @@ public class Exer002 {
         } else {
             System.out.println("É negativo");
         }
+        sc.close();
     }
 }

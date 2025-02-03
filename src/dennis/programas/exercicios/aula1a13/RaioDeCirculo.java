@@ -9,6 +9,6 @@ public class RaioDeCirculo {
         System.out.println("Entre com o raio do circulo:");
         double raio = sc.nextDouble();
         System.out.println("A área de um criculo é: " + (Math.PI * Math.pow(raio, 2)));
-        
+        sc.close();
     }
 }

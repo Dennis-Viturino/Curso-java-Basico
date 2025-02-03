@@ -34,5 +34,6 @@ public class Exer014 {
             case "D":
             case "E": System.out.println(nota1 + " " + nota2 + " " + "(" + media + ")" + " " + aproveitamento + " Reprovado"); break;
         }
+        sc.close();
     }
 }

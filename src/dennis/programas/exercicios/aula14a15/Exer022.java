@@ -37,6 +37,6 @@ public class Exer022 {
         }
 
         System.out.println("Preço total = " + precoTotal);
-
+        sc.close();
     }
 }
