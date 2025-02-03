@@ -18,5 +18,7 @@ public class IfElseNoJava {
         } else { // valor >= 17
             System.out.println("Muito caro");
         }
+
+        sc.close();
     }
 }
