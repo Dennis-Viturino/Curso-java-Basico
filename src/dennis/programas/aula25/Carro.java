@@ -12,4 +12,16 @@ public class Carro {
     void exibirAutonomia() {
         System.out.println("A autonomia do carro é " + capCombustivel * consumoCombustivel + " km");
     }
+
+    double obterAutonomia() {
+        System.out.println("Método obterAutonomia foi chamado.");
+        return capCombustivel * consumoCombustivel; // uso o return caso eu queira salvar um valor
+    }
+
+    double calculaCombustivel(double km) {
+        double qtdCombustivel = km/consumoCombustivel;
+        return qtdCombustivel;
+    }
+
+
 }

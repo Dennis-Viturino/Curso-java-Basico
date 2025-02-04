@@ -14,6 +14,15 @@ public class TesteCarro {
         System.out.println(van.modelo);
 
         van.exibirAutonomia();
+        
+        double autonomia = van.obterAutonomia();
+        System.out.println("A autonomia do carro é: " + autonomia); // aqui poderia ser van.obterAutonomia para não usar variavel
 
-    }
+        double qtdCombustivel10 = van.calculaCombustivel(10);
+        double qtdCombustivel15 = van.calculaCombustivel(15);
+
+        System.out.println("qtdCombustivel10 = " + qtdCombustivel10);
+        System.out.println("qtdCombustivel15 = " + qtdCombustivel15);
+
+    }   
 }
