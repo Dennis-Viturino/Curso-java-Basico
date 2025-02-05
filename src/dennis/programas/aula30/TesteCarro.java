@@ -1,0 +1,11 @@
+package src.dennis.programas.aula30;
+
+public class TesteCarro {
+    public static void main(String[] args) {
+        
+        Carro van = new Carro("Fiat", "Ducato");
+
+        System.out.println(van.numPassageiros);
+
+    }
+}
