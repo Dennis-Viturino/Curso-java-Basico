@@ -9,7 +9,7 @@ public class Aluno {
     String matricula;
     String curso;
     String[] disciplinasAluno = new String[3];
-    double[][] notasDisciplinas = new double[3][4];
+    double[][] notasDisciplinas = new double[disciplinasAluno.length][4];
 
     Scanner sc = new Scanner(System.in);
 
@@ -62,7 +62,7 @@ public class Aluno {
         System.out.println("Média final do aluno: " + mediaFinal.format(media));
     }
 
-    /*  O metodo cadastraDisciplina recene uma String sendo o nome da disciplina e verifica se o aluno já
+    /*  O metodo cadastraDisciplina recebe uma String sendo o nome da disciplina e verifica se o aluno já
      *  está matriculado 3 disciplinas, se não estiver ele matricula nestá nova disciplina
      */
     void cadastraDisciplina(String disciplina) {

@@ -1,0 +1,21 @@
+    ==== Oraganização de código ====
+
+Sempre em lowercase (Letra minúscula)
+Domínio da empresa ao contrário + 
+Nome do projeto + (opcional - evitar colisão)
+Pastas para organizar
+
+Primeiro domonio exemplo dominio ufcg
+com.ufcg
+
+Nome do projeto Curso java
+com.ufcg.cursojava
+
+Pastas para organizar as aulas
+com.ufcg.cursojava.aula01
+com.ufcg.cursojava.aula02
+com.ufcg.cursojava.aula03 
+...
+
+e sucessivamente.
+
