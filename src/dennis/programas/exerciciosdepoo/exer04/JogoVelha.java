@@ -2,8 +2,13 @@ package src.dennis.programas.exerciciosdepoo.exer04;
 
 public class JogoVelha {
 
-    char[][] jogoVelha = new char[3][3];
-    int jogada = 1;
+    char[][] jogoVelha;
+    int jogada;
+
+    public JogoVelha() {
+        jogoVelha = new char[3][3];
+        jogada = 1;
+    }
 
     boolean validarJogada(int linha, int coluna, char sinal) {
         if (jogoVelha[linha][coluna] == 'X' || jogoVelha[linha][coluna] == 'O') {
