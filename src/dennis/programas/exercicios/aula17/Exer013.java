@@ -19,6 +19,6 @@ public class Exer013 {
         }
 
         System.out.println(resultado);
-
+        sc.close();
     }
 }

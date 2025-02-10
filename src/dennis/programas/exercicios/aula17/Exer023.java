@@ -11,6 +11,6 @@ public class Exer023 {
         for (int i =1; i <= 50; i++ ) {
             System.out.println(i + " - R$ " + (1.99 * i));
         }
-
+        sc.close();
     }
 }

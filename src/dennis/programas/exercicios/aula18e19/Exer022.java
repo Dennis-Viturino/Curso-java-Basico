@@ -1,12 +1,8 @@
 package src.dennis.programas.exercicios.aula18e19;
 
-import java.util.Scanner;
-
 public class Exer022 {
     public static void main(String[] args) {
         
-        Scanner sc = new Scanner(System.in);
-
         int[] vetorA = new int[10];
         int conta1 = 0;
         int conta0 = 0;
@@ -38,5 +34,6 @@ public class Exer022 {
 
         System.out.println("O percentual de 0 é: " + percentZeros + "%");
         System.out.println("O percentual de 1 é: " + percentUns + "%");
+        
     }
 }

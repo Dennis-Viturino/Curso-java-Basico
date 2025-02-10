@@ -41,5 +41,6 @@ public class Exer031 {
             System.out.print(vetorB[i] + " ");
         }
         System.out.println(); 
+        sc.close();
     }
 }

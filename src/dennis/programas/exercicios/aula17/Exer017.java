@@ -18,5 +18,6 @@ public class Exer017 {
         }
 
         System.out.println("Resultado: " + fatorial);
+        sc.close();
     }
 }

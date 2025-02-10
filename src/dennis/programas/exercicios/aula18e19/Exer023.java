@@ -30,6 +30,6 @@ public class Exer023 {
         } else {
             System.out.println("O ultimo elemento digitado era ímpar");
         }
-
+        sc.close();
     }
 }

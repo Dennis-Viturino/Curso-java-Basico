@@ -25,5 +25,6 @@ public class Exer015 {
 
             System.out.println(proximo);
         }
+        sc.close();
     }
 }

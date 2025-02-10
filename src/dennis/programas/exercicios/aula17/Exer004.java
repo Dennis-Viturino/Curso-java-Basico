@@ -1,10 +1,7 @@
 package src.dennis.programas.exercicios.aula17;
 
-import java.util.Scanner;
-
 public class Exer004 {
     public static void main(String[] args) {
-        // Scanner sc = new Scanner(System.in);
 
         int popA = 80000;
         int popB = 200000;
@@ -19,6 +16,5 @@ public class Exer004 {
         System.out.println("População A: " + popA);
         System.out.println("População B: " + popB);
         System.out.println("Quantidade anos: " + cont);
-
     }
 }

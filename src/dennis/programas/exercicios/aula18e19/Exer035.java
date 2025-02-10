@@ -26,7 +26,6 @@ public class Exer035 {
             }
             System.out.println();
         }
-
-
+        sc.close();
     }
 }

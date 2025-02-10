@@ -6,7 +6,7 @@ public class Exer025 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        //System.out.println("Lojas Tabajara");
+        System.out.println("Lojas Tabajara");
 
         boolean sair = false;
         String continuarCompra;
@@ -59,5 +59,6 @@ public class Exer025 {
             }
             
         } while (!sair);
+        sc.close();
     }
 }

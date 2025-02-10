@@ -25,5 +25,6 @@ public class Exer013 {
         System.out.println();
 
         System.out.println("A soma dos elementos do vetor A que são divísiveis por cinco é: " + somaMultiplosCinco);
+        sc.close();
     }
 }

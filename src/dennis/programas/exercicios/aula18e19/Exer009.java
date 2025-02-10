@@ -45,5 +45,6 @@ public class Exer009 {
             System.out.print(formatando.format(vetorC[i]) + " ");
         }
         System.out.println();
+        sc.close();
     }
 }

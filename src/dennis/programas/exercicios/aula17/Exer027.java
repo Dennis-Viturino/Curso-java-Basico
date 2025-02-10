@@ -32,5 +32,6 @@ public class Exer027 {
         System.out.println("Média: " + (soma/qtdTemperaturas));
         System.out.println("Menor temperatura: " + menor );
         System.out.println("Maior temperatura: " + maior);
+        sc.close();
     }
 }

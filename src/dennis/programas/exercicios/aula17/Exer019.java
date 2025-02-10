@@ -23,6 +23,6 @@ public class Exer019 {
         media = soma / notas;
         System.out.println("Soma: " + soma);
         System.out.println("Media: " + media);
-
+        sc.close();
     }
 }

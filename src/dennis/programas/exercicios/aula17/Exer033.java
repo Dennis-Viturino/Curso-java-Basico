@@ -18,6 +18,6 @@ public class Exer033 {
         }
 
         System.out.println("\nSoma = " + soma);
-
+        sc.close();
     }
 }

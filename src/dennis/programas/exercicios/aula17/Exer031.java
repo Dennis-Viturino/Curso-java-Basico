@@ -24,6 +24,6 @@ public class Exer031 {
             System.out.println(i + " = " + format.format(salario) + " - " + percentual + "%");
 
         }
-
+        sc.close();
     }
 }

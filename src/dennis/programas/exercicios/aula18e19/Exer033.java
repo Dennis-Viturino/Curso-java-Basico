@@ -35,7 +35,7 @@ public class Exer033 {
             }
 
             System.out.println(vetorA[i] + msg);
-
+            sc.close();
         }
     }
 }

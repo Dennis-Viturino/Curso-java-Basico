@@ -29,6 +29,6 @@ public class Exer006 {
         for (int i = 0; i < vetorC.length; i++) {
             System.out.print(vetorC[i] + " ");
         }
-
+        sc.close();
     }
 }

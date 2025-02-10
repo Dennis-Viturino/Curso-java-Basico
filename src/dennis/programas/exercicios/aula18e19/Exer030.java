@@ -44,6 +44,6 @@ public class Exer030 {
             System.out.print(vetorC[i] + " ");
         }
         System.out.println(); 
-
+        sc.close();
     }
 }

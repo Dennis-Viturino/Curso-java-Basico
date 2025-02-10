@@ -33,5 +33,6 @@ public class Exer030 {
         for (int i = comeco; i <= terminar; i++) {
             System.out.println(num + " X " + i + " = " + (num * i));
         }
+        sc.close();
     }
 }

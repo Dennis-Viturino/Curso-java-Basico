@@ -35,5 +35,6 @@ public class Exer015 {
 
         System.out.println("O percentual de pares desse vetor é: " + percentPar + "%");
         System.out.println("O percentual de ímpares desse vetor é: " + percentImpar + "%");
+        sc.close();
     }
 }

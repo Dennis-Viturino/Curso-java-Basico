@@ -22,6 +22,6 @@ public class Exer022 {
         double media = soma / qtdCDS;
 
         System.out.println("Média gasta com cada CD " + media);
-
+        sc.close();
     }
 }

@@ -44,5 +44,6 @@ public class Exer016 {
         System.out.println("A soma dos elementos inferiores a 15 é " + somaAbaixoDeQuinze);
         System.out.println("A quantidade de elementos que são iguais a 15 é: " + qtdIguaisAQuinze);
         System.out.println("A média dos valores maiores que 15 é: " + (df.format(mediaAcimaDeQuinze)));
+        sc.close();
     }
 }

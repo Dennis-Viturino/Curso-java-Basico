@@ -19,6 +19,6 @@ public class Exer011 {
         }
 
         System.out.println(soma);
-
+        sc.close();
     }
 }

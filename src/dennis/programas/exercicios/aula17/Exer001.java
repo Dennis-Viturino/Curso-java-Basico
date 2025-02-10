@@ -22,5 +22,6 @@ public class Exer001 {
             }
 
         } while (!notaValida); 
+        sc.close();
     }
 }

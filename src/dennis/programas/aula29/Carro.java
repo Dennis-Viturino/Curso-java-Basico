@@ -33,5 +33,4 @@ public class Carro {
         double qtdCombustivel = km/consumoCombustivel;
         return qtdCombustivel;
     }
-
 }

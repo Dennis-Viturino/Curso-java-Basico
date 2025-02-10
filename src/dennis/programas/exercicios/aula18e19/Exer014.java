@@ -32,5 +32,6 @@ public class Exer014 {
 
         System.out.println("A soma de todos os elementos ímpares do vetor A é: " + somaImpares);
         System.out.println("A media dos elementos ímpares do vetor A é: " + media);
+        sc.close();
     }
 }

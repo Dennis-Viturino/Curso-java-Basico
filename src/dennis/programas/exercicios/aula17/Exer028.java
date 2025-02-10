@@ -22,5 +22,6 @@ public class Exer028 {
         if (primo) {
             System.out.println("é primo");
         }
+        sc.close();
     }
 }

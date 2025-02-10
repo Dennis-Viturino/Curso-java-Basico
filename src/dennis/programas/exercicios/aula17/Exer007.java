@@ -20,6 +20,6 @@ public class Exer007 {
         }
 
         System.out.println("O maior número é: " + maior);
-
+        sc.close();
     }
 }

@@ -23,5 +23,6 @@ public class Exer012 {
         System.out.println();
 
         System.out.println("A soma de todos os elementos do vetor A é: " + soma);
+        sc.close();
     }
 }

@@ -29,5 +29,6 @@ public class Exer020 {
         } else {
             System.out.println("A turma é formada por Idosos, media da idade dos alunos é " + media);
         }
+        sc.close();
     }
 }

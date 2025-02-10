@@ -25,6 +25,6 @@ public class Exer020 {
             System.out.print(df.format(vetorA[i]) + " ");
         }
         System.out.println();
-
+        sc.close();
     }
 }

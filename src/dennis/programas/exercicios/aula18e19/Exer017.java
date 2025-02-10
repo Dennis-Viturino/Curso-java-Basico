@@ -26,6 +26,6 @@ public class Exer017 {
         System.out.println();
 
         System.out.println("A quantidade de pessoas com idade superior a 35 é de " + qtdPessoasAcima + " pessoas");
-
+        sc.close();
     }
 }

@@ -78,5 +78,6 @@ public class Exer032 {
         dineheiroPago = sc.nextDouble();
 
         System.out.println("A sua compra foi realizada com sucesso, seu troco é: R$" + (format.format(dineheiroPago - totalGeral)));
+        sc.close();
     }
 }

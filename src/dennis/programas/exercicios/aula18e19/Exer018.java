@@ -41,6 +41,6 @@ public class Exer018 {
 
         System.out.println("Maior idade: " + maior);
         System.out.println("Posição da maior idade: " + indexMaior);
-
+        sc.close();
     }
 }

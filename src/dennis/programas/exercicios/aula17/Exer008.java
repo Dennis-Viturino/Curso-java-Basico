@@ -19,6 +19,6 @@ public class Exer008 {
         media = soma / 5;
         System.out.println("A soma deu: " + soma);
         System.out.println("A media dos números digitados é: " + media);
-
+        sc.close();
     }
 }

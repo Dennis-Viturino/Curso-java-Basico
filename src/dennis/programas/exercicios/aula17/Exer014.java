@@ -20,5 +20,6 @@ public class Exer014 {
             }
         }
         System.out.println("Foram digitados: " + impares + " números ímpares e " + pares + " números pares");
+        sc.close();
     }
 }

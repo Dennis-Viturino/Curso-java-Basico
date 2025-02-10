@@ -19,6 +19,6 @@ public class Exer026 {
         }
 
         System.out.println("1 = " + fatorial);
-
+        sc.close();
     }
 }

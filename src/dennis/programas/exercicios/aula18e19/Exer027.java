@@ -40,6 +40,6 @@ public class Exer027 {
         }
         System.out.println(); 
 
-
+        sc.close();
     }
 }

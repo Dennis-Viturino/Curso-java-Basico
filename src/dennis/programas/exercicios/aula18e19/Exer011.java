@@ -41,5 +41,6 @@ public class Exer011 {
         System.out.println();
         
         System.out.println("A quantida de elementos pares é " + qtdPares);
+        sc.close();
     }
 }

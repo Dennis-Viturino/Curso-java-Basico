@@ -33,6 +33,6 @@ public class Exer024 {
         if (palindromo) {
             System.out.println("É palíndromo");
         }
-
+        sc.close();
     }
 }

@@ -1,0 +1,9 @@
+    ==== Modificador static e variaveis ====
+
+Com o modificador static em metodos, não precisa instanciar a classe
+ou se eu colocar o static em um metodo. posso chamar esse metodo utilizando
+nomeDaClasse.metodo()
+
+exemplo temos o Math. que já é uma classe do java
+
+Math.pi() como por exemplo

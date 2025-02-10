@@ -26,5 +26,6 @@ public class Exer002 {
             }
 
         } while (!informacoesValidas);
+        sc.close();
     }
 }

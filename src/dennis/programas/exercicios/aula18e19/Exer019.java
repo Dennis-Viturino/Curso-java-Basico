@@ -38,6 +38,6 @@ public class Exer019 {
             }
             System.out.println();
         }
-
+        sc.close();
     }
 }
