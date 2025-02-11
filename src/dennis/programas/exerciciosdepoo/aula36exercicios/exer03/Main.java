@@ -36,7 +36,7 @@ public class Main {
         for (int i = 0; i < qtdAlunos; i++) {
             System.out.println("Digite o nome do aluno: ");
             String nome = sc.nextLine();
-            System.out.println("Digite a matrícula do aluno:");
+            System.out.println("Digite a matrícula do aluno: (9 Digitos)");
             String matricula = sc.nextLine();
 
             Aluno aluno = new Aluno(nome, matricula);
