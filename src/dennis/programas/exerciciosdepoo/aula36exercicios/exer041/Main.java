@@ -1,8 +1,12 @@
+package src.dennis.programas.exerciciosdepoo.aula36exercicios.exer041;
+
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        scanner.useLocale(Locale.US);
         
         // Criando um curso
         System.out.println("Cadastro de Curso");
@@ -62,6 +66,7 @@ public class Main {
         } 
 
         System.out.println(curso);
+        scanner.close();
     }
 }
 

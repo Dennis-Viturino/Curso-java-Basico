@@ -1,3 +1,5 @@
+package src.dennis.programas.exerciciosdepoo.aula36exercicios.exer041;
+
 import java.util.Arrays;
 
 public class Aluno {

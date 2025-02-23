@@ -1,3 +1,5 @@
+package src.dennis.programas.exerciciosdepoo.aula36exercicios.exer041;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -25,14 +27,14 @@ public class Curso {
         alunos.add(novoAluno);
     }
 
-    public void adicionarNotasAlunos(Scanner sc) {
+    public void adicionarNotasAlunos(Scanner scanner) {
         for (Aluno aluno : alunos) {
             for (int i = 0; i < aluno.getNotas().length; i ++) {
                 boolean notaValida = false;
                 while (!notaValida) {
                     System.out.println("Digite a nota " + (i + 1) + " de " + aluno.getNome());
                     try {
-                        Double nota = sc.nextDouble();
+                        Double nota = scanner.nextDouble();
                         aluno.adicionaNotas(i, nota);
                         notaValida = true;
                     } catch (IllegalArgumentException e) {
@@ -104,6 +106,4 @@ public class Curso {
     public void setAlunos(ArrayList<Aluno> alunos) {
         this.alunos = alunos;
     }
-
-    
 }

@@ -1,3 +1,5 @@
+package src.dennis.programas.exerciciosdepoo.aula36exercicios.exer041;
+
 public class Professor {
 
     private String nome;
