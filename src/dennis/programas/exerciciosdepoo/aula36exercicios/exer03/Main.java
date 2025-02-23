@@ -39,6 +39,14 @@ public class Main {
             System.out.println("Digite a matrícula do aluno: (9 Digitos)");
             String matricula = sc.nextLine();
 
+            boolean matriculaValida = (matricula.length() == 9);
+
+            while (!matriculaValida) {
+                System.out.println("Matricula inválida, necessário 9 digitos");
+                matricula = sc.nextLine();
+                matriculaValida = (matricula.length() == 9);
+            }
+
             Aluno aluno = new Aluno(nome, matricula);
             aluno.cadastraNotas(sc);
 
